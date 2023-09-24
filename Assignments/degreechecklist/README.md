@@ -7,15 +7,15 @@ README Outline: Create a README.MD file which contains images of the diagrams yo
 ERD                      | ERD Components
 ---                             | ---
 ***Entity***                 | ***List below***
-add here        | [Git](https://training.github.com/downloads/github-git-cheat-sheet/) and [GitHub](https://docs.github.com/en/get-started)  
+add here        | One to Many  
 &nbsp;
-&nbsp;
+
 ***Relationship***                 | ***List below***
-Add here           | [SQL Data Types](https://database.guide/database-tutorial-part-1-about-databases-creating-databases-tables/)
+Add here           | One to Many
 &nbsp;
-&nbsp;
+
 ***Attribute***                 | ***List below***
-Add here         | [Databases and RDBMS](https://database.guide/what-is-a-database/)
+Add here         | One to Many
 
 **Diagram Image made using DrawIO**
 * [Degree Checklist Diagram](https://github.com/m3gan-m/CIDM-6325/blob/e5bd5f1a884cbb889b2867e947d09ad55da1710b/Assignments/degreechecklist/Assignment%202%20Modeling.drawio) 
