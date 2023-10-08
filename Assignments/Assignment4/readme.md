@@ -1,6 +1,6 @@
 # CIDM6325 - Assignment 4
-*A fairly common approach would be to use natural language to capture functional requirements by developing user stories.*
-Assignment Instructions:
+*A fairly common approach would be to use natural language to capture functional requirements by developing user stories.*<br>
+**Assignment Instructions:**
 >>Read this article on User Stories: https://www.atlassian.com/agile/project-management/user-stories<br>
 >>Reflect on the diagrams you produced for the system in assignment 2<br>
 >>Develop user stories that support the required behaviors of the system with particular regard for your entities<br>
