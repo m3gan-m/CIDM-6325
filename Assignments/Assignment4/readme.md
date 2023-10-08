@@ -10,7 +10,7 @@
 
 # Approach: User Stories
 
-FEATURE                      | APPLICABLE USER STORIES
+FEATURE                      | APPLICABLE USER STORIES: “As a [persona], I [want to], [so that].”
 ---                          | ---
 ***Student***                | ***List Below***
 &nbsp;        | Add here.
@@ -21,6 +21,12 @@ FEATURE                      | APPLICABLE USER STORIES
 &nbsp;        | Add here.
 &nbsp;
 ***Semester Plan***          | ***List below***
+&nbsp;        | Add here
+&nbsp;        | Add here.
+***Degree Plan***          | ***List below***
+&nbsp;        | Add here
+&nbsp;        | Add here.
+***Degree Checklist***          | ***List below***
 &nbsp;        | Add here
 &nbsp;        | Add here.
 
