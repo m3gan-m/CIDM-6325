@@ -13,16 +13,17 @@
 FEATURE                      | APPLICABLE USER STORIES: “As a [persona], I [want to], [so that].”
 ---                          | ---
 ***Student***                | ***List Below***
-&nbsp;        | Add here.
-&nbsp;        | Add here.
+&nbsp;        | As a student, I want to see my degree checklist so that I know what courses I need to take.
+&nbsp;        | As a student, I want to keep track of my GPA so that I know I am in good academic standing.
 &nbsp;
 ***Course***                 | ***List below***
-&nbsp;        | Add here.
-&nbsp;        | Add here.
+&nbsp;        | As a student, I want to know what prerequisties are required so I can take a course.
+&nbsp;        | As a student, I want to know how many hours a course credits me for so I know how many I have completed.
+&nbsp;        | As a advisor to students, I want to know if a student has all prerequsities completed to register for a course.
 &nbsp;
 ***Semester Plan***          | ***List below***
-&nbsp;        | Add here
-&nbsp;        | Add here.
+&nbsp;        | As a advisor to students, I want to know when students are planning to take certain courses so I can help confirm they meet the requirements.
+&nbsp;        | As a student, I want to know what semester a course is offered so that I know if my degree plan id scheduled out or not.
 ***Degree Plan***          | ***List below***
 &nbsp;        | Add here
 &nbsp;        | Add here.
