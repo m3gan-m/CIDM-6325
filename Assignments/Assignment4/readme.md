@@ -10,7 +10,7 @@
 
 # Approach: User Stories
 
-FEATURE                      | APPLICABLE USER STORIES: “As a [persona], I [want to], [so that].”
+FEATURE                      | APPLICABLE USER STORIES: *“As a [persona], I [want to], [so that].”*
 ---                          | ---
 ***Student***                | ***List Below***
 &nbsp;        | As a student, I want to see my degree checklist so that I know what courses I need to take.
@@ -25,11 +25,12 @@ FEATURE                      | APPLICABLE USER STORIES: “As a [persona], I [wa
 &nbsp;        | As a advisor to students, I want to know when students are planning to take certain courses so I can help confirm they meet the requirements.
 &nbsp;        | As a student, I want to know what semester a course is offered so that I know if my degree plan id scheduled out or not.
 ***Degree Plan***          | ***List below***
-&nbsp;        | Add here
-&nbsp;        | Add here.
+&nbsp;        | As a student, I want to know what degree year I am in so that I know which degree plan I should follow.
+&nbsp;        | As an advisor to students, I want to know what degree plan they have selected so that I know what department and GPA they need to succeed.
 ***Degree Checklist***          | ***List below***
-&nbsp;        | Add here
-&nbsp;        | Add here.
+&nbsp;        | As a student, I want to know how many hours I need specific to my major so I know how many I need to complete.
+&nbsp;        | As a student, I want to know how many hours I need specific for electives so I know how many I need to complete.
+&nbsp;        | As a student, I want to know how many hours I need specific for core cirriculum so I know how many I need to complete.
 
 &nbsp;
 
