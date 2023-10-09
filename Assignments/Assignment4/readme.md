@@ -23,7 +23,7 @@ FEATURE                      | APPLICABLE USER STORIES: *“As a [persona], I [w
 &nbsp;
 ***Semester Plan***          | ***List below***
 &nbsp;        | As a advisor to students, I want to know when students are planning to take certain courses so I can help confirm they meet the requirements.
-&nbsp;        | As a student, I want to know what semester a course is offered so that I know if my degree plan id scheduled out or not.
+&nbsp;        | As a student, I want to know what semester a course is offered so that I know if my degree plan can be completed in the timeframe I want.
 ***Degree Plan***          | ***List below***
 &nbsp;        | As a student, I want to know what degree year I am in so that I know which degree plan I should follow.
 &nbsp;        | As an advisor to students, I want to know what degree plan they have selected so that I know what department and GPA they need to succeed.
