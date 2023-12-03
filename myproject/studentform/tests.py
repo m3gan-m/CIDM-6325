@@ -1,4 +1,3 @@
-from django.test import TestCase
 import re
 from unittest import mock
 
@@ -7,8 +6,8 @@ from django.http import HttpRequest, QueryDict
 from django.test import Client
 from django.test import TestCase
 
-from form_example.forms import ExampleForm, RADIO_CHOICES, BOOK_CHOICES
-from form_example.views import form_example
+from studentform.forms import ExampleForm, RADIO_CHOICES, BOOK_CHOICES
+from studentform.views import studentform
 
 
 class Exercise5Test(TestCase):
@@ -18,7 +17,7 @@ class Exercise5Test(TestCase):
         (there is a separate test for this) then they will all be rendered. There's no reason why only some would be.
         """
         c = Client()
-        response = c.get("/form-example/")
+        response = c.get("/studentform/")
 
         content = response.content.decode("ascii")
         content = re.sub(r">\s+<", "><", content)
@@ -59,25 +58,25 @@ class Exercise5Test(TestCase):
     def test_method_in_view(self):
         """Test that the method is included in the HTML output"""
         c = Client()
-        response = c.get("/form-example/")
+        response = c.get("/studentform/")
         self.assertIn(b"<h4>Method: GET</h4>", response.content)
 
-        response = c.post("/form-example/")
+        response = c.post("/studentform/")
         self.assertIn(b"<h4>Method: POST</h4>", response.content)
 
-    @mock.patch("form_example.views.print")
-    @mock.patch("form_example.views.ExampleForm")
+    @mock.patch("studentform.views.print")
+    @mock.patch("studentform.views.ExampleForm")
     def test_get_debug_output(self, mock_example_form, mock_print):
         """Mock the print() function to test the debug output with GET request (no output)."""
         mock_request = mock.MagicMock(spec=HttpRequest)
         mock_request.method = "GET"
         mock_request.POST = QueryDict()
         mock_request.META = {}
-        form_example(mock_request)
+        studentform(mock_request)
         mock_example_form.assert_called_with()
         mock_print.assert_not_called()
 
-    @mock.patch("form_example.views.print")
+    @mock.patch("studentform.views.print")
     def test_post_debug_output(self, mock_print):
         """Mock the print() function to test the debug output with posted data."""
         mock_request = mock.MagicMock(spec=HttpRequest)
@@ -89,7 +88,7 @@ class Exercise5Test(TestCase):
             b"email_input=user%40example.com&date_input=2019-12-11&hidden_input=Hidden+Value&submit_input=Submit+Input"
         )
         mock_request.META = {}
-        form_example(mock_request)
+        studentform(mock_request)
         mock_print.assert_any_call("text_input: (<class 'str'>) tex")
         mock_print.assert_any_call("password_input: (<class 'str'>) password123")
         mock_print.assert_any_call("checkbox_on: (<class 'bool'>) True")
@@ -142,4 +141,3 @@ class Exercise5Test(TestCase):
 
         self.assertIsInstance(form.fields["hidden_input"], forms.CharField)
         self.assertEqual(form.fields["hidden_input"].initial, "Hidden Value")
-# Create your tests here.
