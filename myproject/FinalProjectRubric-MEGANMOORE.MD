@@ -15,9 +15,9 @@ Topic                                   | Baseline  | Good  | Better  | Best  | 
 Templates                               | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/tree/main/myproject/checklistform/templates)
 Template Inheritance                    | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/tree/main/myproject/checklistform/templates)
 Views                                   | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/views.py)
-Class-Based Views                       | x         |       |         |       |
+Class-Based Views                       | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/urls.py)
 URLs                                    | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/myproject/urls.py)
-Routing                                 | x         |       |         |       |
+Routing                                 | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/urls.py)
 ***Chapter 4***                         |           |       |         |       |
 Model Classes                           | x         |       |         |       |
 Django Admin configuration              | x         |       |         |       |
@@ -26,7 +26,7 @@ Tests                                   |           | x     |         |       |
 Static Files                            | x         |       |         |       |
 Queries                                 | x         |       |         |       |
 ***Chapter 6***                         |           |       |         |       |
-Class-Based Forms                       | x         |       |         |       |
+Class-Based Forms                       | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/templates/studentform2.html)  which loads to (http://127.0.0.1:8000/studentform2/)
 ***Chapter 7***                         |           |       |         |       |
 Authentication                          | x         |       |         |       |
 Social auth integration                 |           | x     |         |       |
