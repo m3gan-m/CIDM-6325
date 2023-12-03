@@ -10,6 +10,10 @@ def checklistform(request):
   template = loader.get_template('welcome.html')
   return HttpResponse(template.render())
 
+from django.shortcuts import render
+def welcome_view (request):
+    return render(request, 'welcome.html')
+
 from django.template import loader
 
 def checklistform(request):
