@@ -13,7 +13,7 @@ Topic                                   | Baseline  | Good  | Better  | Best  | 
 ---                                     | ---       | ---   | ---     | ---   | ---
 ***Chapter 3***                         |           |       |         |       | 
 Templates                               | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/tree/main/myproject/checklistform/templates)
-Template Inheritance                    | x         |       |         |       |
+Template Inheritance                    | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/tree/main/myproject/checklistform/templates)
 Views                                   | x         |       |         |       |
 Class-Based Views                       | x         |       |         |       |
 URLs                                    | x         |       |         |       |
