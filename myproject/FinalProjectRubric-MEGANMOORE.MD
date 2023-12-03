@@ -3,10 +3,11 @@ Guide for Final Project details
 
 Launch html welcome page here: [Welcome to my Project](http://127.0.0.1:8000/members/)
 
-Form Screenshot
+Form Screenshot<br>
 <kbd>
 <img src="/checklistform/checklistform.png" width="450">
-</kbd><br><br>
+</kbd>
+<br><br>
 
 RUBRIC OUTLINE BELOW:
 * All **Baseline** components - Gets you to 70% of the value
