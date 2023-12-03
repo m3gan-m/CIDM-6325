@@ -13,10 +13,10 @@ Topic                                   | Baseline  | Good  | Better  | Best  | 
 ---                                     | ---       | ---   | ---     | ---   | ---
 ***Chapter 3***                         |           |       |         |       | 
 Templates                               | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/tree/main/myproject/checklistform/templates)
-Template Inheritance                    | x         |       |         |       |
-Views                                   | x         |       |         |       |
+Template Inheritance                    | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/tree/main/myproject/checklistform/templates)
+Views                                   | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/views.py)
 Class-Based Views                       | x         |       |         |       |
-URLs                                    | x         |       |         |       |
+URLs                                    | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/myproject/urls.py)
 Routing                                 | x         |       |         |       |
 ***Chapter 4***                         |           |       |         |       |
 Model Classes                           | x         |       |         |       |
