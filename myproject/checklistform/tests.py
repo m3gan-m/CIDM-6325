@@ -6,7 +6,7 @@ from django.http import HttpRequest, QueryDict
 from django.test import Client
 from django.test import TestCase
 
-from studentform.forms import ExampleForm, RADIO_CHOICES, BOOK_CHOICES
+from studentform.forms import ExampleForm, PROGRAM_YEAR_CHOICES, CIRRICULUM_CHOICES
 from checklistform.views import checklistform
 
 

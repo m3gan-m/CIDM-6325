@@ -3,10 +3,12 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .forms import ExampleForm
 
+#def checklistform(request):
+#    return HttpResponse("Welcome to CIDM 6395 Project for Megan Moore!")
+
 def checklistform(request):
-    return HttpResponse("Welcome to CIDM 6395 Project for Megan Moore!")
-
-
+  template = loader.get_template('welcome.html')
+  return HttpResponse(template.render())
 
 from django.template import loader
 
