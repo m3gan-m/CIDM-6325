@@ -6,7 +6,7 @@ Launch html welcome page here: [Welcome to my Project](http://127.0.0.1:8000/mem
 Checklist Form built to Computer Information Systems B.B.A. 
 Link to dergee program checklist: (https://catalog.wtamu.edu/preview_program.php?catoid=29&poid=4565&returnto=2546)
 
-CHecklists Form Screenshot<br>
+Checklist Form Screenshot<br>
 <kbd>
 <img src="https://github.com/m3gan-m/CIDM-6325/blob/9968741323197617df73a6d0f6cf6f39dbba37ce/myproject/checklistform/checklistform.png" width="450">
 </kbd>
