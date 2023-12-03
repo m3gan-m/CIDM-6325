@@ -21,6 +21,7 @@ urlpatterns = [
     path('', include('members.urls')),
     path('admin/', admin.site.urls),
     path('', include('studentform.urls')),
+    path('', include('checklistform.urls')),
     #path('', include('forms.urls')),
     #path('', include('myproject.urls'))
 ]

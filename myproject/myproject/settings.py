@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'members',
     'forms',
     'studentform',
-    'checklistform'
+    'checklistform',
 ]
 
 MIDDLEWARE = [
