@@ -12,6 +12,13 @@ from django.template import loader
 #request.method})
 
 def studentform(request):
+    for name in request.POST:
+        print("{}: {}".format(name,
+        request.POST.getlist(name)))
+    return render(request, "form-example.html", {"method":
+request.method})
+
+def studentform(request):
     if request.method == "POST":
         form = studentform(request.POST)
         if form.is_valid():
@@ -21,6 +28,5 @@ def studentform(request):
         form = studentform()
 
     return render(
-        request, "studentform.html", {"method": request.method, "form": form},
-        request, "form-example.html", {"method": request.method, "form": form}
+        request, "studentform.html", {"method": request.method, "form": form}
     )
