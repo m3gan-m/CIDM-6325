@@ -28,8 +28,8 @@ Class-Based Views                       | x         |       |         |       | 
 URLs                                    | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/myproject/urls.py)
 Routing                                 | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/urls.py)
 ***Chapter 4***                         |           |       |         |       |
-Model Classes                           | x         |       |         |       |
-Django Admin configuration              | x         |       |         |       |
+Model Classes                           | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/models.py)
+Django Admin configuration              | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/admin.py)
 Tests                                   |           | x     |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/tests.py)
 ***Chapter 5***                         |           |       |         |       |
 Static Files                            | x         |       |         |       |
