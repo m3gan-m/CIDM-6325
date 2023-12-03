@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Checklist Form</title>
+</head>
+<body>
+<h4>Method: {{ method }}</h4>
+<form method="post">
+    {% csrf_token %}
+    <p>
+        <label for="id_studentfirstname">Student First Name Input</label><br>
+        <input id="id_studentfirstname" type="text" name="studentfirstname" value="" placeholder="Enter some text">
+    </p>
+    <p>
+        <label for="id_studentlastname">Student Last Name Input</label><br>
+        <input id="id_studentlastname" type="text" name="studentlastname" value="" placeholder="Enter some text">
+    </p>
+    <p>
+        <label for="id_password_input">Password Input</label><br>
+        <input id="id_password_input" type="password" name="password_input" value="" placeholder="Your password">
+    </p>
+    <p>
+        <input id="id_checkbox_input" type="checkbox" name="checkbox_on" value="Checkbox Checked" checked>
+        <label for="id_checkbox_input">Checkbox - select if new student</label>
+    </p>
+    <p> Degree Program Year selection
+        <input id="id_radio_one_input" type="radio" name="radio_input" value="Value One">
+        <label for="id_radio_one_input">Year 2022-2023</label>
+        <input id="id_radio_two_input" type="radio" name="radio_input" value="Value Two" checked>
+        <label for="id_radio_two_input">Year 2023-2024</label>
+        <input id="id_radio_three_input" type="radio" name="radio_input" value="Value Three">
+        <label for="id_radio_three_input">Year 2024-2025</label>
+    </p>
+    <p>
+        <label for="id_cirriculum">Major in Computer Information Systems Cirriculum List (MAJOR CODE: 308)</label><br>
+        The Computer Information Systems (CIS) program in the Engler College of Business is accredited by the Computing Accreditation Commission (CAC) of ABET.
+        <select id="id_cirriculum" name="cirriculum">
+            <optgroup label="BBA Core Cirriculum - Communication: 6 Hours">
+                <option value="1">ENGL 1301 - Introduction to Academic Writing and Argumentation</option>
+                <option value="2">OR ENGL 1311 - Writing About Ideas</option>
+                <option value="3">AND</option>
+                <option value="4">COMM 1315 - Basic Speech Communication</option>
+                <option value="5">OR COMM 1318 - Interpersonal Communication</option>
+                <option value="6">OR COMM 1321 - Business and Professional Communication</option>
+            </optgroup>
+            <optgroup label="BBA Core Cirriculum - Math: 3 Hours">
+                <option value="1">MATH 1324 - Mathematics for Business and Economics I</option>
+            </optgroup>
+            <optgroup label="BBA Core Cirriculum - Social and Behavioral Sciences: 3 Hours">
+                <option value="1">COMM 1321 - ECON 2301 - Principles of Macroeconomics</option>
+            </optgroup>
+            <optgroup label="BBA Core Cirriculum - Component Area Option: 3 Hours">
+                <option value="1">BUSI 1301 - Business Principles</option>
+                <option value="2">BUSI 1304 - Business Communication</option>
+                <option value="3">CIDM 1301 - Introduction to Information Science</option>
+                <option value="4">CIDM 1315 - Programming Fundamentals</option>
+                <option value="5">ECON 2331 - Economics and Society</option>
+            </optgroup>
+            <optgroup label="BBA Major Requirements - 21 Hours required">
+                <option value="1">CIDM 1315 - Programming Fundamentals</option>
+                <option value="2">CIDM 3312 - Advanced Business Programming</option>
+                <option value="3">CIDM 4360 - Object-Oriented Analysis and Design</option>
+                <option value="4">CS 3340 - Software Engineering</option>
+                <option value="5">CIDM 4390 - Software Systems Development</option>
+                <option value="6">CIDM 3312 - Advanced Business Programming</option>
+                <option value="7">AND</option>
+                <option value="8">CIDM 2315 - Programming Business Applications</option>
+                <option value="9">OR CS 1337 - Programming Principles I</option>
+            </optgroup>
+            <optgroup label="BBA Major Electives - 9 Hours required">
+                <option value="1">CIDM 3310 - Spreadsheet Applications in Business</option>
+                <option value="2">CIDM 3342 - Business Statistics</option>
+                <option value="3">CIDM 3372 - Front-End Web Application Development</option>
+                <option value="4">CIDM 3380 - Information Security</option>
+                <option value="5">CIDM 3390 - Project Management</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="id_cirriculum_completed">Cirriculum Completed (please select all)</label><br>
+        <select id="id_cirriculum_completed" name="cirriculum_completed" multiple>
+            <optgroup label="BBA Core Cirriculum - Communication: 6 Hours">
+                <option value="1">ENGL 1301 - Introduction to Academic Writing and Argumentation</option>
+                <option value="2">OR ENGL 1311 - Writing About Ideas</option>
+                <option value="3">AND</option>
+                <option value="4">COMM 1315 - Basic Speech Communication</option>
+                <option value="5">OR COMM 1318 - Interpersonal Communication</option>
+                <option value="6">OR COMM 1321 - Business and Professional Communication</option>
+            </optgroup>
+            <optgroup label="BBA Core Cirriculum - Math: 3 Hours">
+                <option value="7">MATH 1324 - Mathematics for Business and Economics I</option>
+            </optgroup>
+            <optgroup label="BBA Core Cirriculum - Social and Behavioral Sciences: 3 Hours">
+                <option value="8">COMM 1321 - ECON 2301 - Principles of Macroeconomics</option>
+            </optgroup>
+            <optgroup label="BBA Core Cirriculum - Component Area Option: 3 Hours">
+                <option value="9">BUSI 1301 - Business Principles</option>
+                <option value="10">BUSI 1304 - Business Communication</option>
+                <option value="11">CIDM 1301 - Introduction to Information Science</option>
+                <option value="12">CIDM 1315 - Programming Fundamentals</option>
+                <option value="13">ECON 2331 - Economics and Society</option>
+            </optgroup>
+            <optgroup label="BBA Major Requirements - 21 Hours required">
+                <option value="14">CIDM 1315 - Programming Fundamentals</option>
+                <option value="15">CIDM 3312 - Advanced Business Programming</option>
+                <option value="16">CIDM 4360 - Object-Oriented Analysis and Design</option>
+                <option value="17">CS 3340 - Software Engineering</option>
+                <option value="18">CIDM 4390 - Software Systems Development</option>
+                <option value="19">CIDM 3312 - Advanced Business Programming</option>
+                <option value="20">AND</option>
+                <option value="21">CIDM 2315 - Programming Business Applications</option>
+                <option value="22">OR CS 1337 - Programming Principles I</option>
+            </optgroup>
+            <optgroup label="BBA Major Electives - 9 Hours required">
+                <option value="23">CIDM 3310 - Spreadsheet Applications in Business</option>
+                <option value="24">CIDM 3342 - Business Statistics</option>
+                <option value="25">CIDM 3372 - Front-End Web Application Development</option>
+                <option value="26">CIDM 3380 - Information Security</option>
+                <option value="27">CIDM 3390 - Project Management</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="id_text_area">Text Area</label><br>
+        <textarea name="text_area" id="id_text_area" placeholder="Enter multiple lines of text"></textarea>
+    </p>
+    <p>
+        <label for="id_numberinput">Phone Number Input</label><br>
+        <input id="id_numberinput" type="number" name="numberinput" value="" step="any" placeholder="A number">
+    </p>
+    <p>
+        <label for="id_email_input">Student Email Input</label><br>
+        <input id="id_email_input" type="email" name="email_input" value="" placeholder="Your email address">
+    </p>
+    <p>
+        <label for="id_date_input">Today's Date Input</label><br>
+        <input id="id_date_input" type="date" name="date_input" value="2019-11-23">
+    </p>
+    <p>
+        <input type="submit" name="submit_input" value="Submit Input">
+    </p>
+    <p>
+        <button type="submit" name="button_element" value="Button Element">
+            Button With <strong>Styled</strong> Text
+        </button>
+    </p>
+    <input type="hidden" name="hidden_input" value="Hidden Value">
+</form>
+</body>
+</html>
