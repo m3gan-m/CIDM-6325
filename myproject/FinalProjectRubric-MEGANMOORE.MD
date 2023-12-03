@@ -30,7 +30,7 @@ Routing                                 | x         |       |         |       | 
 ***Chapter 4***                         |           |       |         |       |
 Model Classes                           | x         |       |         |       |
 Django Admin configuration              | x         |       |         |       |
-Tests                                   |           | x     |         |       |
+Tests                                   |           | x     |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/tests.py)
 ***Chapter 5***                         |           |       |         |       |
 Static Files                            | x         |       |         |       |
 Queries                                 | x         |       |         |       |
