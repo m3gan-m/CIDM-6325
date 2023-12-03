@@ -11,8 +11,8 @@ RUBRIC OUTLINE BELOW:
 
 Topic                                   | Baseline  | Good  | Better  | Best  | LINK TO CODE PROOF  
 ---                                     | ---       | ---   | ---     | ---   | ---
-***Chapter 3***                         |           |       |         |       |
-Templates                               | x         |       |         |       |
+***Chapter 3***                         |           |       |         |       | 
+Templates                               | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/tree/main/myproject/checklistform/templates)
 Template Inheritance                    | x         |       |         |       |
 Views                                   | x         |       |         |       |
 Class-Based Views                       | x         |       |         |       |
