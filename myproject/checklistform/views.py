@@ -23,4 +23,6 @@ def checklistform(request):
     return render(request, "studentform2.html", {"method":
 request.method})
 
-
+def welcome_view(request):
+       message = f"<html><h1>Welcome to CIDM 6325 landing page!</h1></html>"
+       return HttpResponse(message)
