@@ -21,5 +21,6 @@ def studentform(request):
         form = studentform()
 
     return render(
-        request, "studentform.html", {"method": request.method, "form": form}
+        request, "studentform.html", {"method": request.method, "form": form},
+        request, "form-example.html", {"method": request.method, "form": form}
     )
