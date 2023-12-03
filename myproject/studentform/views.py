@@ -1,19 +1,25 @@
-#from django.shortcuts import render
-#def form_example(request):
-#    return render(request, "studentform.html")
-# Create your views here.
+
 from django.shortcuts import render
 from django.http import HttpResponse
 
-#def members(request):
-#    return HttpResponse("Hello world!")
-# Create your views here.
-#from django.http import HttpResponse
 from django.template import loader
 
-#def members(request):
-#  template = loader.get_template('studentform.html')
-#  return HttpResponse(template.render())
+#def studentform(request):
+#    for name in request.POST:
+#        print("{}: {}".format(name,
+#        request.POST.getlist(name)))
+#    return render(request, "studentform.html", {"method":
+#request.method})
 
 def studentform(request):
-    return render(request, "studentform.html")
+    if request.method == "POST":
+        form = studentform(request.POST)
+        if form.is_valid():
+            for name, value in form.cleaned_data.items():
+                print("{}: ({}) {}".format(name, type(value), value))
+    else:
+        form = studentform()
+
+    return render(
+        request, "studentform.html", {"method": request.method, "form": form}
+    )
