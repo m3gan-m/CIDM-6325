@@ -3,6 +3,15 @@ Guide for Final Project details
 
 Launch html welcome page here: [Welcome to my Project](http://127.0.0.1:8000/members/)
 
+Checklist Form built to Computer Information Systems B.B.A. 
+Link to dergee program checklist: (https://catalog.wtamu.edu/preview_program.php?catoid=29&poid=4565&returnto=2546)
+
+Checklist Form Screenshot<br>
+<kbd>
+<img src="https://github.com/m3gan-m/CIDM-6325/blob/9968741323197617df73a6d0f6cf6f39dbba37ce/myproject/checklistform/checklistform.png" width="450">
+</kbd>
+<br><br>
+
 RUBRIC OUTLINE BELOW:
 * All **Baseline** components - Gets you to 70% of the value
 * Six **Good** components - Gets you to 80% of the vaue
@@ -21,7 +30,7 @@ Routing                                 | x         |       |         |       | 
 ***Chapter 4***                         |           |       |         |       |
 Model Classes                           | x         |       |         |       |
 Django Admin configuration              | x         |       |         |       |
-Tests                                   |           | x     |         |       |
+Tests                                   |           | x     |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/tests.py)
 ***Chapter 5***                         |           |       |         |       |
 Static Files                            | x         |       |         |       |
 Queries                                 | x         |       |         |       |
@@ -61,7 +70,7 @@ CI/CD with Github                       |           |       |         | x       
 [APIs](https://github.com/wsvincent/awesome-django#apis) | |  |         | x       |
 [Async](https://github.com/wsvincent/awesome-django#async) |           |       |         | x       |
 [ECommerce](https://github.com/wsvincent/awesome-django#ecommerce) |    |   |   | x       |
-[Files and Images](https://github.com/wsvincent/awesome-django#filesimages) |    |   |   | x       |
+[Files and Images](https://github.com/wsvincent/awesome-django#filesimages) |    |   |   | x       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/checklistform.png)
 [Model enhancements](https://github.com/wsvincent/awesome-django#models) |   |   |   | x       |
 [Search](https://github.com/wsvincent/awesome-django#search) |   |   |   | x       |
 [Tasks and Job Scheduling](https://github.com/wsvincent/awesome-django#task-queues) |   |   |   | x       |
