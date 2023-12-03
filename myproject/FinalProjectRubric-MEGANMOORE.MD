@@ -5,7 +5,7 @@ Launch html welcome page here: [Welcome to my Project](http://127.0.0.1:8000/mem
 
 Form Screenshot<br>
 <kbd>
-<img src="/checklistform/checklistform.png" width="450">
+<img src="myproject/checklistform/checklistform.png" width="450">
 </kbd>
 <br><br>
 
