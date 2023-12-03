@@ -1,7 +1,7 @@
 # MEGAN MOORE CIDM 6325 PROJECT - README
 Guide for Final Project details
 
-ADD HERE
+Launch html welcome page here: [Welcome to my Project](http://127.0.0.1:8000/members/)
 
 RUBRIC OUTLINE BELOW:
 * All **Baseline** components - Gets you to 70% of the value
