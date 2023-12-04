@@ -1,7 +1,7 @@
 # MEGAN MOORE CIDM 6325 PROJECT - README
 Guide for Final Project details
 
-Main admin page: http://127.0.0.1:8000/
+Main admin page: (http://127.0.0.1:8000/)<br>
 Launch html welcome page here: [Welcome to my Project](http://127.0.0.1:8000/members/)
 
 Checklist Form built to Computer Information Systems B.B.A.<br>
