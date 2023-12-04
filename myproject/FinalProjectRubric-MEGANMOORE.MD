@@ -86,7 +86,7 @@ Postgres                                |           | x     |         |       |
 Custom user models                      |           | x     |         |       |
 Ad hoc forms                            |           | x     |         |       |
 ***Chapter 10***                        |           |       |         |       |
-Bootstrap                               | x         |       |         |       |
+Bootstrap                               | x         |       |         |       | had issues with deployment (https://github.com/m3gan-m/CIDM-6325/blob/6fc2db3f6fd1378431e17040ffabdf49c9d3e741/myproject/checklistform/urls.py)
 ***Chapter 11***                        |           |       |         |       |
 Custom templates                        |           | x     |         |       |
 Account management                      |           | x     |         |       |
