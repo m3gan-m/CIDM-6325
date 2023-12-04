@@ -19,6 +19,18 @@ Django Admin Screenshot<br>
 </kbd>
 <br><br>
 
+Working Static File Screenshot<br>
+<kbd>
+<img src="https://github.com/m3gan-m/CIDM-6325/blob/948e1d9c575e7c15bcd90ec0ab6fcdeeb642ef07/myproject/checklistform/staticsnip.png" width="450">
+</kbd>
+<br><br>
+
+File finding Screenshot<br>
+<kbd>
+<img src="https://github.com/m3gan-m/CIDM-6325/blob/948e1d9c575e7c15bcd90ec0ab6fcdeeb642ef07/myproject/checklistform/filefinder.png" width="450">
+</kbd>
+<br><br>
+
 RUBRIC OUTLINE BELOW:
 * All **Baseline** components - Gets you to 70% of the value
 * Six **Good** components - Gets you to 80% of the vaue
