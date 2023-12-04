@@ -3,8 +3,8 @@ Guide for Final Project details
 
 Launch html welcome page here: [Welcome to my Project](http://127.0.0.1:8000/members/)
 
-Checklist Form built to Computer Information Systems B.B.A. 
-Link to dergee program checklist: (https://catalog.wtamu.edu/preview_program.php?catoid=29&poid=4565&returnto=2546)
+Checklist Form built to Computer Information Systems B.B.A.<br>
+Link to degree program checklist: (https://catalog.wtamu.edu/preview_program.php?catoid=29&poid=4565&returnto=2546)<br>
 
 Checklist Form Screenshot<br>
 <kbd>
