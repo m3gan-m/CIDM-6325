@@ -12,8 +12,15 @@ Detailed Guide for Final Project.
 > [!TIP]
 > In addition to the text, I referenced W3Schools website for a super clean walkthrough of setting up Django.(https://www.w3schools.com/django/index.php)
 
-Main admin page: (http://127.0.0.1:8000/)<br>
-Launch html welcome page here: [Welcome to my Project](http://127.0.0.1:8000/members/)
+<br>
+
+## Project details below
+  
+```
+Main Admin Pages
+```
+> Main admin page: (http://127.0.0.1:8000/)<br>
+> Launch html welcome page here: [Welcome to my Project](http://127.0.0.1:8000/members/)
 
 Checklist Form built to Computer Information Systems B.B.A.<br>
 Link to degree program checklist: (https://catalog.wtamu.edu/preview_program.php?catoid=29&poid=4565&returnto=2546)<br>
