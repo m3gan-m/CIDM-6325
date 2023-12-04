@@ -26,3 +26,34 @@ request.method})
 def welcome_view(request):
        message = f"<html><h1>Welcome to CIDM 6325 landing page!</h1></html>"
        return HttpResponse(message)
+
+from .forms import PublisherForm, SearchForm
+from django.shortcuts import render, get_object_or_404, redirect
+from .models import Course, Professor, WTStaff
+from django.contrib import messages
+
+def publisher_edit(request, pk=None):
+    if pk is not None:
+        WTStaff = get_object_or_404(WTStaff,
+        pk=pk)
+    else:
+        WTStaff = None
+    if request.method == "POST":
+        form = PublisherForm(request.POST,
+        instance=WTStaff)
+        if form.is_valid():
+            updated_publisher = form.save()
+            if WTStaff is None:
+                messages.success(request, "WTStaff
+                "{}" was created."
+                .format(updated_publisher))
+            else:
+                messages.success(request, "WTStaff
+                "{}" was updated."
+                .format(updated_publisher))
+            return redirect("publisher_edit",
+            updated_publisher.pk)
+    else:
+        form = PublisherForm(instance=WTStaff)
+        return render(request, "form-example.html",
+    {"method": request.method, "form": form})

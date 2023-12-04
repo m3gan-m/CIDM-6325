@@ -86,3 +86,9 @@ email = forms.EmailField(
     widget=forms.EmailInput(attrs={"placeholder":
     "Your email address"}),
 )
+
+from .models import WTStaff
+class PublisherForm(forms.ModelForm):
+    class Meta:
+        model = WTStaff
+        fields = "__all__"
