@@ -90,8 +90,8 @@ Ad hoc forms                            |           | x     |         |       | 
 ***Chapter 10***                        |           |       |         |       |
 Bootstrap                               | x         |       |         |       | had issues with deployment (https://github.com/m3gan-m/CIDM-6325/blob/6fc2db3f6fd1378431e17040ffabdf49c9d3e741/myproject/checklistform/urls.py)
 ***Chapter 11***                        |           |       |         |       |
-Custom templates                        |           | x     |         |       |
-Account management                      |           | x     |         |       |
+Custom templates                        |           | x     |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/deca39c746325c06e92cc8736f3222634bbdb6aa/myproject/templates/welcome.html)
+Account management                      |           | x     |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/deca39c746325c06e92cc8736f3222634bbdb6aa/myproject/checklistform/admin.py)
 ***Chapter12***                         |           |       |         |       |
 Email                                   |           | x     |         |       |
 ***Chapter 13***                        |           |       |         |       |
