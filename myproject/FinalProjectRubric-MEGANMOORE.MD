@@ -1,11 +1,29 @@
 # MEGAN MOORE CIDM 6325 PROJECT - README
-Guide for Final Project details
+Detailed Guide for Final Project.
 
-Main admin page: (http://127.0.0.1:8000/)<br>
-Launch html welcome page here: [Welcome to my Project](http://127.0.0.1:8000/members/)
+> [!NOTE]
+> I will say through this course and working with the Django text, I preferred using VS Code in place of PyCharm. It's simply more familiar to me as I've used it much more. But for the steps I did use PyCharm, I found this quick step list to be handy.<br>
 
-Checklist Form built to Computer Information Systems B.B.A.<br>
-Link to degree program checklist: (https://catalog.wtamu.edu/preview_program.php?catoid=29&poid=4565&returnto=2546)<br>
+<kbd>
+<img src="https://github.com/m3gan-m/CIDM-6325/blob/a57615705338d481a6b5e6294ff8d48c77bb5c73/myproject/checklistform/pycharmsteps.png" width="450">
+</kbd>
+<br><br>
+
+> [!TIP]
+> In addition to the text, I referenced W3Schools website for a super clean walkthrough of setting up Django.(https://www.w3schools.com/django/index.php)
+
+<br>
+
+## Project details below
+  
+```
+Main Admin Pages
+```
+> Main admin page: (http://127.0.0.1:8000/)<br>
+> Launch html welcome page here: [Welcome to my Project](http://127.0.0.1:8000/members/)
+>
+> Checklist Form built to Computer Information Systems B.B.A.<br>
+> Link to degree program checklist: (https://catalog.wtamu.edu/preview_program.php?catoid=29&poid=4565&returnto=2546)<br>
 
 Checklist Form Screenshot<br>
 <kbd>
@@ -19,11 +37,28 @@ Django Admin Screenshot<br>
 </kbd>
 <br><br>
 
-RUBRIC OUTLINE BELOW:
-* All **Baseline** components - Gets you to 70% of the value
-* Six **Good** components - Gets you to 80% of the vaue
-* Two **Better** components - Gets you to 85% of the value
-* Two **Best** components - Gets you to 90% of the value
+Working Static File Screenshot<br>
+<kbd>
+<img src="https://github.com/m3gan-m/CIDM-6325/blob/948e1d9c575e7c15bcd90ec0ab6fcdeeb642ef07/myproject/checklistform/staticsnip.png" width="450">
+</kbd>
+<br><br>
+
+File finding Screenshot<br>
+<kbd>
+<img src="https://github.com/m3gan-m/CIDM-6325/blob/948e1d9c575e7c15bcd90ec0ab6fcdeeb642ef07/myproject/checklistform/filefinder.png" width="450">
+</kbd>
+<br><br>
+
+## RUBRIC OUTLINE BELOW
+  
+```
+Rubric Grading
+```
+> - All **Baseline** components - Gets you to 70% of the value<br>
+> - Six **Good** components - Gets you to 80% of the vaue<br>
+> - Two **Better** components - Gets you to 85% of the value<br>
+> - Two **Best** components - Gets you to 90% of the value<br>
+<br>
 
 Topic                                   | Baseline  | Good  | Better  | Best  | LINK TO CODE PROOF  
 ---                                     | ---       | ---   | ---     | ---   | ---
@@ -77,7 +112,7 @@ CI/CD with Github                       |           |       |         | x       
 [APIs](https://github.com/wsvincent/awesome-django#apis) | |  |         | x       |
 [Async](https://github.com/wsvincent/awesome-django#async) |           |       |         | x       |
 [ECommerce](https://github.com/wsvincent/awesome-django#ecommerce) |    |   |   | x       |
-[Files and Images](https://github.com/wsvincent/awesome-django#filesimages) |    |   |   | x       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/checklistform.png)
+[Files and Images](https://github.com/wsvincent/awesome-django#filesimages) |    |   |   | x       | Mutiple files and images under (https://github.com/m3gan-m/CIDM-6325/tree/main/myproject/checklistform)
 [Model enhancements](https://github.com/wsvincent/awesome-django#models) |   |   |   | x       |
 [Search](https://github.com/wsvincent/awesome-django#search) |   |   |   | x       |
 [Tasks and Job Scheduling](https://github.com/wsvincent/awesome-django#task-queues) |   |   |   | x       |
