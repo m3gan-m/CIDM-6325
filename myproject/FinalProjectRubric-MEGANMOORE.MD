@@ -2,6 +2,8 @@
 Detailed Guide for Final Project.
 
 > [!NOTE]
+> I had some code deployment issues in the later chapters, especially around Javascript. I made my best attempt in following the text's steps for trying to oomplete those requirements.<br><br>
+> Overall I felt the main gist of building new projects, apps, templates, etc to be fairly straightforward however Django does take some getting used to as it's brand new to me. The text also glosses over a few of the "simpler" steps I believe it assumes the reader to simply either know or be aware of and I found myself googling help forums a number of times when my code failed.<br><br>
 > I will say through this course and working with the Django text, I preferred using VS Code in place of PyCharm. It's simply more familiar to me as I've used it much more. But for the steps I did use PyCharm, I found this quick step list to be handy.<br>
 
 <kbd>
@@ -86,7 +88,7 @@ Postgres                                |           | x     |         |       |
 Custom user models                      |           | x     |         |       |
 Ad hoc forms                            |           | x     |         |       |
 ***Chapter 10***                        |           |       |         |       |
-Bootstrap                               | x         |       |         |       |
+Bootstrap                               | x         |       |         |       | had issues with deployment (https://github.com/m3gan-m/CIDM-6325/blob/6fc2db3f6fd1378431e17040ffabdf49c9d3e741/myproject/checklistform/urls.py)
 ***Chapter 11***                        |           |       |         |       |
 Custom templates                        |           | x     |         |       |
 Account management                      |           | x     |         |       |
