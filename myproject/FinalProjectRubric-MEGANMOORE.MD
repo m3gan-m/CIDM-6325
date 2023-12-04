@@ -79,7 +79,7 @@ Queries                                 | x         |       |         |       | 
 ***Chapter 6***                         |           |       |         |       |
 Class-Based Forms                       | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/templates/studentform2.html)  which loads to (http://127.0.0.1:8000/studentform2/)
 ***Chapter 7***                         |           |       |         |       |
-Authentication                          | x         |       |         |       |
+Authentication                          | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/1466ff87615d20c28c1067f270936ef53044da70/myproject/checklistform/forms.py)
 Social auth integration                 |           | x     |         |       |
 Postgres                                |           | x     |         |       |
 ***Chapter 8***                         |           |       |         |       |
