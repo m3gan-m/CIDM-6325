@@ -65,3 +65,24 @@ class ExampleForm(forms.Form):
     email_input = forms.EmailField()
     date_input = forms.DateField(widget=forms.DateInput(attrs={"type": "date"}))
     hidden_input = forms.CharField(widget=forms.HiddenInput, initial="Hidden Value")
+
+elective_count = forms.IntegerField(
+    min_value=0,
+    max_value=80,
+    widget=forms.NumberInput(attrs={"placeholder":
+    "Number of Electives"}),
+)
+
+course_count = forms.IntegerField(
+    min_value=0,
+    max_value=50,
+    widget=forms.NumberInput(attrs={"placeholder":
+    "Number of Courses"}),
+)
+
+email = forms.EmailField(
+    required=False,
+    validators=[validate_email_domain],
+    widget=forms.EmailInput(attrs={"placeholder":
+    "Your email address"}),
+)
