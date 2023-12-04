@@ -5,6 +5,8 @@ Guide for Final Project details. I will say through this course and working with
 </kbd>
 <br><br>
 
+In addition to the text, I referenced W3Schools website for a super clean walkthrough of setting up Django.(https://www.w3schools.com/django/index.php)
+
 Main admin page: (http://127.0.0.1:8000/)<br>
 Launch html welcome page here: [Welcome to my Project](http://127.0.0.1:8000/members/)
 
