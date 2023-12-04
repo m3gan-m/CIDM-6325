@@ -1,5 +1,9 @@
 # MEGAN MOORE CIDM 6325 PROJECT - README
-Guide for Final Project details
+Guide for Final Project details. I will say through this course and working with the Django text, I preferred using VS Code in place of PyCharm. It's simply more familiar to me as I've used it much more. But for the steps I did use PyCharm, I found this quick step list to be handy.<br>
+<kbd>
+<img src="https://github.com/m3gan-m/CIDM-6325/blob/a57615705338d481a6b5e6294ff8d48c77bb5c73/myproject/checklistform/pycharmsteps.png" width="450">
+</kbd>
+<br><br>
 
 Main admin page: (http://127.0.0.1:8000/)<br>
 Launch html welcome page here: [Welcome to my Project](http://127.0.0.1:8000/members/)
