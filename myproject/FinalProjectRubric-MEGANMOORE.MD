@@ -112,7 +112,7 @@ CI/CD with Github                       |           |       |         | x       
 [APIs](https://github.com/wsvincent/awesome-django#apis) | |  |         | x       |
 [Async](https://github.com/wsvincent/awesome-django#async) |           |       |         | x       |
 [ECommerce](https://github.com/wsvincent/awesome-django#ecommerce) |    |   |   | x       |
-[Files and Images](https://github.com/wsvincent/awesome-django#filesimages) |    |   |   | x       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/checklistform.png)
+[Files and Images](https://github.com/wsvincent/awesome-django#filesimages) |    |   |   | x       | Mutiple files and images under (https://github.com/m3gan-m/CIDM-6325/tree/main/myproject/checklistform)
 [Model enhancements](https://github.com/wsvincent/awesome-django#models) |   |   |   | x       |
 [Search](https://github.com/wsvincent/awesome-django#search) |   |   |   | x       |
 [Tasks and Job Scheduling](https://github.com/wsvincent/awesome-django#task-queues) |   |   |   | x       |
