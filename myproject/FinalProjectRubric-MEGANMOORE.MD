@@ -71,7 +71,7 @@ URLs                                    | x         |       |         |       | 
 Routing                                 | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/urls.py)
 ***Chapter 4***                         |           |       |         |       |
 Model Classes                           | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/models.py)
-Django Admin configuration              | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/admin.py) with Username of WTStaff and password of cidm6325
+Django Admin configuration              | x         |       |         |       | with Username of WTStaff and password of cidm6325 (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/admin.py) 
 Tests                                   |           | x     |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/tests.py)
 ***Chapter 5***                         |           |       |         |       |
 Static Files                            | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/f7c981ed5b13f0d56eb7c2af68d8c6a6be9c869a/myproject/landing/static/landing/logo.png) (https://github.com/m3gan-m/CIDM-6325/blob/bb1d11551b50c5e02052e09f35ebc11bbe80d694/myproject/landing/static/landing/cis_bba_2324.pdf) (https://github.com/m3gan-m/CIDM-6325/tree/main/myproject/static_production_test)
