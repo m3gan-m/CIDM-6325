@@ -41,7 +41,10 @@ INSTALLED_APPS = [
     'forms',
     'studentform',
     'checklistform',
-    'landing'
+    'landing',
+    "rest_framework",
+    'rest_framework.authtoken',
+    'reviews'
 ]
 
 MIDDLEWARE = [
