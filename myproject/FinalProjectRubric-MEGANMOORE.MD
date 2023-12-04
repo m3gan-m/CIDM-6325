@@ -105,7 +105,7 @@ ManytoMany relationships                |           | x     |         |       |
 heroku deployment                       |           |       | x       |       |
 vps deployment (nginx, gunicorn)        |           |       | x       |       |
 Static assets with nginx and whitenoise |           | x     |         |       |
-Securing with SSL                       | x         |       |         |       |
+Securing with SSL                       | x         |       |         |       | At end of file (https://github.com/m3gan-m/CIDM-6325/blob/20ae5db6b0f20ea60c324cf00e6f3fa8471a2cb6/myproject/myproject/settings.py)
 Custom middlewre                        |           |       | x       |       |
 Task scheduling with cron               |           | x     | x       |       |
 CI/CD with Github                       |           |       |         | x       |
