@@ -2,8 +2,8 @@
 Detailed Guide for Final Project.
 
 > [!NOTE]
-> I had some code deployment issues in the later chapters, especially around Javascript. I made my best attempt in following the text's steps for trying to oomplete those requirements.<br><br>
-> Overall I felt the main gist of building new projects, apps, templates, etc to be fairly straightforward however Django does take some getting used to as it's brand new to me. The text also glosses over a few of the "simpler" steps I believe it assumes the reader to simply either know or be aware of and I found myself googling help forums a number of times when my code failed.<br><br>
+> I had some code deployment issues in the later chapters, especially around authentication and Javascript. I made my best attempt in following the text's steps for trying to oomplete those requirements. The topics in the later chapters felt very complex after about Chapter 7 and for someone with not as much coding background, I found following the text to be challenging to say the least. In my process to develop my own Degree Checklist project with forms, logins, models, views, etc.. I followed the text steps to replicate the organization of the directory. Just trying to follow the text exactly was rough, let alone attempting to replicate it to develop a custom form and all the variables which went into it.<br><br>
+> Overall I felt the main gist of building new projects, apps, templates, etc to be fairly straightforward however Django does take some getting used to as it's brand new to me. The text also glosses over a few of the "simpler" steps I believe it assumes the reader to simply either know or be aware of and I found myself googling help forums a number of times when my code failed or gave me unexplained errors.<br><br>
 > I will say through this course and working with the Django text, I preferred using VS Code in place of PyCharm. It's simply more familiar to me as I've used it much more. But for the steps I did use PyCharm, I found this quick step list to be handy.<br>
 
 <kbd>
@@ -82,7 +82,7 @@ Queries                                 | x         |       |         |       | 
 Class-Based Forms                       | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/templates/studentform2.html)  which loads to (http://127.0.0.1:8000/studentform2/)
 ***Chapter 7***                         |           |       |         |       |
 Authentication                          | x         |       |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/1466ff87615d20c28c1067f270936ef53044da70/myproject/checklistform/forms.py)
-Social auth integration                 |           | x     |         |       |
+Social auth integration                 |           | x     |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/views.py)
 Postgres                                |           | x     |         |       |
 ***Chapter 8***                         |           |       |         |       |
 Custom user models                      |           | x     |         |       |
