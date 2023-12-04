@@ -85,8 +85,8 @@ Authentication                          | x         |       |         |       | 
 Social auth integration                 |           | x     |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/main/myproject/checklistform/views.py)
 Postgres                                |           | x     |         |       |
 ***Chapter 8***                         |           |       |         |       |
-Custom user models                      |           | x     |         |       |
-Ad hoc forms                            |           | x     |         |       |
+Custom user models                      |           | x     |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/0b8f52d451d9a182ff2eff8b184c4108a580a3ff/myproject/checklistform/models.py)
+Ad hoc forms                            |           | x     |         |       | (https://github.com/m3gan-m/CIDM-6325/blob/0b8f52d451d9a182ff2eff8b184c4108a580a3ff/myproject/checklistform/templates/studentform2.html)
 ***Chapter 10***                        |           |       |         |       |
 Bootstrap                               | x         |       |         |       | had issues with deployment (https://github.com/m3gan-m/CIDM-6325/blob/6fc2db3f6fd1378431e17040ffabdf49c9d3e741/myproject/checklistform/urls.py)
 ***Chapter 11***                        |           |       |         |       |
