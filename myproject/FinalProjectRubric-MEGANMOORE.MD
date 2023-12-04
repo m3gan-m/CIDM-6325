@@ -12,6 +12,12 @@ Checklist Form Screenshot<br>
 </kbd>
 <br><br>
 
+Django Admin Screenshot<br>
+<kbd>
+<img src="https://github.com/m3gan-m/CIDM-6325/blob/9968741323197617df73a6d0f6cf6f39dbba37ce/myproject/checklistform/superuser5.png" width="450">
+</kbd>
+<br><br>
+
 RUBRIC OUTLINE BELOW:
 * All **Baseline** components - Gets you to 70% of the value
 * Six **Good** components - Gets you to 80% of the vaue
