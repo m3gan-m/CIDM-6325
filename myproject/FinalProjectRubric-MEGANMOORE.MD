@@ -49,11 +49,16 @@ File finding Screenshot<br>
 </kbd>
 <br><br>
 
-RUBRIC OUTLINE BELOW:
-* All **Baseline** components - Gets you to 70% of the value
-* Six **Good** components - Gets you to 80% of the vaue
-* Two **Better** components - Gets you to 85% of the value
-* Two **Best** components - Gets you to 90% of the value
+## RUBRIC OUTLINE BELOW
+  
+```
+Rubric Grading
+```
+> - All **Baseline** components - Gets you to 70% of the value<br>
+> - Six **Good** components - Gets you to 80% of the vaue<br>
+> - Two **Better** components - Gets you to 85% of the value<br>
+> - Two **Best** components - Gets you to 90% of the value<br>
+<br>
 
 Topic                                   | Baseline  | Good  | Better  | Best  | LINK TO CODE PROOF  
 ---                                     | ---       | ---   | ---     | ---   | ---
