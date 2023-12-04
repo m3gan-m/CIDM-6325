@@ -14,7 +14,7 @@ Checklist Form Screenshot<br>
 
 Django Admin Screenshot<br>
 <kbd>
-<img src="https://github.com/m3gan-m/CIDM-6325/blob/9968741323197617df73a6d0f6cf6f39dbba37ce/myproject/checklistform/superuser5.png" width="450">
+<img src="https://github.com/m3gan-m/CIDM-6325/blob/5af2eee6249f6ca88e7eddd47628d99da43e393d/myproject/checklistform/superuser5.png" width="450">
 </kbd>
 <br><br>
 
